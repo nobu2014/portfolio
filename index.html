@@ -1,0 +1,108 @@
+<!DOCTYPE html>
+<html lang="ja">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+  <title>私のポートフォリオ</title>
+  <style>
+    body {
+      font-family: 'Helvetica', sans-serif;
+      line-height: 1.6;
+      margin: 0;
+      padding: 0;
+      background: #f9f9f9;
+      color: #333;
+    }
+    header {
+      background: #4a90e2;
+      color: white;
+      padding: 40px 20px;
+      text-align: center;
+    }
+    nav {
+      background: #333;
+      color: white;
+      display: flex;
+      justify-content: center;
+      gap: 20px;
+      padding: 10px;
+    }
+    nav a {
+      color: white;
+      text-decoration: none;
+    }
+    section {
+      padding: 40px 20px;
+      max-width: 900px;
+      margin: auto;
+    }
+    .projects {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+    .project {
+      background: white;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0 0 8px rgba(0,0,0,0.1);
+    }
+    footer {
+      background: #eee;
+      text-align: center;
+      padding: 20px;
+      font-size: 14px;
+    }
+  </style>
+</head>
+<body>
+
+<header>
+  <h1>nobu</h1>
+  <p>Web開発者・Pythonプログラマー</p>
+</header>
+
+<nav>
+  <a href="#about">自己紹介</a>
+  <a href="#projects">作品</a>
+  <a href="#contact">連絡先</a>
+</nav>
+
+<section id="about">
+  <h2>自己紹介のページ只今作成中です！</h2>
+  <p>
+    初めまして。私はWeb制作とPythonプログラミングを学んでいるnobuと申します。
+    見やすく、使いやすいウェブサイトを目指して日々勉強中です。
+  </p>
+</section>
+
+<section id="projects">
+  <h2>作品</h2>
+  <div class="projects">
+    <div class="project">
+      <h3>Todoリストアプリ</h3>
+      <p>HTML/CSSとJavaScriptで作ったシンプルなタスク管理アプリです。</p>
+    </div>
+    <div class="project">
+      <h3>気温表示アプリ</h3>
+      <p>Raspberry Pi Pico Wで気温データを収集し、Wi-Fiでスマホに表示する仕組みです。</p>
+    </div>
+    <div class="project">
+      <h3>自己紹介ページ</h3>
+      <p>このポートフォリオページ自体も私の作品の一つです！</p>
+    </div>
+  </div>
+</section>
+
+<section id="contact">
+  <h2>連絡先</h2>
+  <p>📧 メール: ooo@example.com</p>
+
+</section>
+
+<footer>
+  © 2025 nobu. All rights reserved.
+</footer>
+
+</body>
+</html>
